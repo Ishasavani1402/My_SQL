@@ -17,6 +17,7 @@ else "Senior"
 end as age_category from customers)
 select  age_category , count(age_category) as count_of_people from a group by age_category;
 
+
 -- 3.For each product category, show total revenue and classify performance: 
 -- High Revenue (above 1,00,000), Medium Revenue (50,000–1,00,000), Low Revenue (below 50,000).
 
